@@ -3,7 +3,7 @@ main: com.report.Report
 version: 0.0.1-SNAPSHOT
 commands:
   report:
-    description: これは報告するためのコマンドです.
+    description: 報告するためのコマンドです.
     usage: /<command> [プレイヤー] [コメント]
     permission: report.report
     permission-message: 貴方はこのコマンドを使う権限がありません.
