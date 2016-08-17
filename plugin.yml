@@ -1,12 +1,14 @@
-name: report
+name: Report
 main: com.report.Report
-version: 0.0.1-SNAPSHOT
+version: 0.0.2-SNAPSHOT
+
 commands:
   report:
     description: 報告するためのコマンドです.
     usage: /<command> [プレイヤー] [コメント]
     permission: report.report
     permission-message: 貴方はこのコマンドを使う権限がありません.
+
 permissions:
     report.*:
         description: reportのコマンドの権限を全て与える
